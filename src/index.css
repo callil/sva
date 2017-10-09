@@ -2,34 +2,53 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  margin: 1rem;
-  font-family: 'Lobster'
+
+  font-family: 'Rubik',sans-serif;
+  font-size: 24px;
+  background-color: blue;
+  color: white;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
 }
 
-.title{
-  font-size: 48px;
-  color: blue;
-  z-index: 999;
-  position: fixed;
+li, p, a{
+  font-family: 'Work Sans', sans-serif;
+  max-width: 900px;
+  line-height: 1.5;
+  letter-spacing: 1.2;
+  /*font-size: 24px;*/
+  color: white;
 }
+
+a{
+  font-size: 48px;
+  color: yellow;
+}
+
 
 .class{
+  padding : 1rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  height: 100vh;
+  width: 100vw;
+  overflow: scroll;
 }
 
 .person{
   width: 20vw;
   min-width: 150px;
-  transition: transform .3s ease;
+  max-width: 300px;
+  /*flex-shrink: 1;*/
+  transition: transform 1s ease;
 }
 
 .person:hover{
   transform-origin: 50% 50%;
   cursor: pointer;
-  transform: scale(1.5) rotate(-180deg);
+  transform: scale(1.5) rotate(20deg);
 }
 
 .name{
@@ -40,7 +59,94 @@ body {
   width: 100%;
 }
 
+.info{
+  position: absolute;
+  top: 0; left: 0;
+  padding-left: 2vw;
+  width: 100vw;
+  height: 100vh;
+  overflow: scroll;
+  margin-bottom: 5rem;
+}
+
+.behind{
+    z-index: -999;
+}
+
+.title{
+  font-size: 172px;
+  color: white;
+  z-index: 999;
+  width: 100%;
+  /*position: fixed;/*/
+}
+
+.title2{
+  font-size: 52px;
+}
+
+.x{
+  opacity: 1;
+  transition: opacity .5s ease-in;
+  cursor: pointer;
+  /*height: 50px;*/
+  color: yellow;
+  width: 100vw;
+  font-size: 120px;
+}
+
+.people{
+  cursor: n-resize;
+}
+
+.teach{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.teachers{
+  /*width: 20vw;*/
+  /*min-width: 100px;*/
+  max-width: 150px;
+  transition: transform 1s ease;
+}
+
+.teachers:hover{
+  transform-origin: 50% 50%;
+  cursor: pointer;
+  transform: scale(1.5) rotate(20deg);
+}
+
 img{
   /*filter: grayscale(100%) drop-shadow(0px 4px 5px grey);*/
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.35);
+}
+
+@media only screen and (max-width: 550px) {
+  .title{
+    font-size: 72px;
+    padding: 1rem;
+  }
+
+  .title2{
+    font-size: 25px;
+    padding: 1rem;
+  }
+
+  body{
+    font-size: 16px;
+  }
+  p{
+    padding: 1rem;
+  }
+  a{
+    font-size: 32px;
+  }
+  .info{
+    padding: 0;
+  }
+  .x{
+    font-size: 48px;;
+  }
 }

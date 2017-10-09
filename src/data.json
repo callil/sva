@@ -1,70 +1,87 @@
 [
   {
     "name": "Anthony",
-    "image": "3.jpg"
+    "image": "3.jpg",
+    "link" : "https://docs.google.com/presentation/d/1L80ApT1zfJKEpN7uZrW7YtQMFOzi1dxyWWb1DjKS-MQ/edit#slide=id.p"
   },
   {
     "name": "Filipa Mota",
-    "image": "4.jpg"
+    "image": "4.jpg",
+    "link" : "https://docs.google.com/presentation/d/1L80ApT1zfJKEpN7uZrW7YtQMFOzi1dxyWWb1DjKS-MQ/edit#slide=id.p"
   },
   {
     "name": "Karen Chien Lu",
-    "image": "5.jpg"
+    "image": "5.jpg",
+    "link" : "https://docs.google.com/presentation/d/1L80ApT1zfJKEpN7uZrW7YtQMFOzi1dxyWWb1DjKS-MQ/edit#slide=id.p"
   },
   {
     "name": "Yoonji",
-    "image": "6.jpg"
+    "image": "6.jpg",
+    "link" : "https://docs.google.com/presentation/d/1L80ApT1zfJKEpN7uZrW7YtQMFOzi1dxyWWb1DjKS-MQ/edit#slide=id.p"
   },
   {
     "name": "Jamie Yoo",
-    "image": "7.jpg"
+    "image": "7.jpg",
+    "link" : "https://docs.google.com/presentation/d/1L80ApT1zfJKEpN7uZrW7YtQMFOzi1dxyWWb1DjKS-MQ/edit#slide=id.p"
   },
   {
     "name": "Seung Hyo (Joanne)",
-    "image": "8.jpg"
+    "image": "8.jpg",
+    "link" : "https://docs.google.com/presentation/d/1L80ApT1zfJKEpN7uZrW7YtQMFOzi1dxyWWb1DjKS-MQ/edit#slide=id.p"
   },
   {
     "name": "Chandni",
-    "image": "9.jpg"
+    "image": "9.jpg",
+    "link" : "https://docs.google.com/presentation/d/1L80ApT1zfJKEpN7uZrW7YtQMFOzi1dxyWWb1DjKS-MQ/edit#slide=id.p"
   },
   {
     "name": "Gaby Ong",
-    "image": "10.jpg"
+    "image": "10.jpg",
+    "link" : "https://docs.google.com/presentation/d/1L80ApT1zfJKEpN7uZrW7YtQMFOzi1dxyWWb1DjKS-MQ/edit#slide=id.p"
   },
   {
     "name": "I-Fah",
-    "image": "11.jpg"
+    "image": "11.jpg",
+    "link" : "https://docs.google.com/presentation/d/1L80ApT1zfJKEpN7uZrW7YtQMFOzi1dxyWWb1DjKS-MQ/edit#slide=id.p"
   },
   {
     "name": "DongJai Cho (Jay)",
-    "image": "12.jpg"
+    "image": "12.jpg",
+    "link" : "https://docs.google.com/presentation/d/1L80ApT1zfJKEpN7uZrW7YtQMFOzi1dxyWWb1DjKS-MQ/edit#slide=id.p"
   },
   {
     "name": "Yerin Kim",
-    "image": "13.jpg"
+    "image": "13.jpg",
+    "link" : "https://docs.google.com/presentation/d/1L80ApT1zfJKEpN7uZrW7YtQMFOzi1dxyWWb1DjKS-MQ/edit#slide=id.p"
   },
   {
     "name": "Eunseok Park",
-    "image": "14.jpg"
+    "image": "14.jpg",
+    "link" : "https://docs.google.com/presentation/d/1L80ApT1zfJKEpN7uZrW7YtQMFOzi1dxyWWb1DjKS-MQ/edit#slide=id.p"
   },
   {
     "name": "Chloe Chung",
-    "image": "15.jpg"
+    "image": "15.jpg",
+    "link" : "https://docs.google.com/presentation/d/1L80ApT1zfJKEpN7uZrW7YtQMFOzi1dxyWWb1DjKS-MQ/edit#slide=id.p"
   },
   {
     "name": "Congfei Zou",
-    "image": "16.jpg"
+    "image": "16.jpg",
+    "link" : "https://docs.google.com/presentation/d/1L80ApT1zfJKEpN7uZrW7YtQMFOzi1dxyWWb1DjKS-MQ/edit#slide=id.p"
   },
   {
     "name": "Julie Zhu",
-    "image": "17.jpg"
+    "image": "17.jpg",
+    "link" : "https://docs.google.com/presentation/d/1L80ApT1zfJKEpN7uZrW7YtQMFOzi1dxyWWb1DjKS-MQ/edit#slide=id.p"
   },
   {
     "name": "Qinya Yuan (Arcee)",
-    "image": "18.jpg"
+    "image": "18.jpg",
+    "link" : "https://docs.google.com/presentation/d/1L80ApT1zfJKEpN7uZrW7YtQMFOzi1dxyWWb1DjKS-MQ/edit#slide=id.p"
   },
   {
     "name": "Jessica Libby",
-    "image": "19.jpg"
+    "image": "19.jpg",
+    "link" : "https://docs.google.com/presentation/d/1L80ApT1zfJKEpN7uZrW7YtQMFOzi1dxyWWb1DjKS-MQ/edit#slide=id.p"
   }
 ]

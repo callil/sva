@@ -1,18 +1,17 @@
 [
   {
     "name": "Barron",
-    "image": "0.jpg"
+    "image": "0.jpg",
+    "link": "http://barronwebster.com/"
   },
   {
     "name": "Isaac",
-    "image": "1.jpg"
-  },
-  {
-    "name": "Isaac",
-    "image": "2.jpg"
+    "image": "2.jpg",
+    "link": "http://www.isaacblankensmith.com/"
   },
   {
     "name": "Cal",
-    "image": "20.jpg"
+    "image": "20.jpg",
+    "link": "https://callil.com/"
   }
 ]
