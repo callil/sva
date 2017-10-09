@@ -6,7 +6,7 @@ body {
   font-family: 'Rubik',sans-serif;
   font-size: 24px;
   background-color: blue;
-  color: white;
+  color: yellow;
   width: 100vw;
   height: 100vh;
   overflow: hidden;
@@ -18,7 +18,7 @@ li, p, a{
   line-height: 1.5;
   letter-spacing: 1.2;
   /*font-size: 24px;*/
-  color: white;
+  color: yellow;
 }
 
 a{
@@ -35,6 +35,8 @@ a{
   height: 100vh;
   width: 100vw;
   overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+
 }
 
 .person{
@@ -66,6 +68,9 @@ a{
   width: 100vw;
   height: 100vh;
   overflow: scroll;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+
   margin-bottom: 5rem;
 }
 
@@ -75,7 +80,7 @@ a{
 
 .title{
   font-size: 172px;
-  color: white;
+  /*color: white;*/
   z-index: 999;
   width: 100%;
   /*position: fixed;/*/
@@ -95,8 +100,25 @@ a{
   font-size: 120px;
 }
 
-.people{
+@-webkit-keyframes colorchange {
+      0% {
+
+        color: red;
+      }
+      50% {
+
+        color: yellow;
+      }
+      100% {
+
+        color: red;
+      }
+    }
+
+.people a{
   cursor: n-resize;
+  color: red;
+  animation:colorchange 5s infinite;
 }
 
 .teach{
@@ -136,6 +158,7 @@ img{
 
   body{
     font-size: 16px;
+    overflow-x: hidden;
   }
   p{
     padding: 1rem;
