@@ -3,12 +3,12 @@
     "week": "Week 1",
     "assigned":[
       {
-        "title":"reading 1",
-        "link": "http://barronwebster.com/"
+        "title":"Objectified↝",
+        "link": "https://www.youtube.com/watch?v=09OeQayBGCY"
       },
       {
-        "title":"reading 2",
-        "link": "http://www.isaacblankensmith.com/"
+        "title":"A Brief Rant On The Future of Interaction Design↝",
+        "link": "http://worrydream.com/ABriefRantOnTheFutureOfInteractionDesign/"
       }
     ]
   },
@@ -16,12 +16,51 @@
     "week": "Week 2",
     "assigned":[
       {
-        "title":"reading 1",
-        "link": "http://barronwebster.com/"
+        "title":"The Future Mundane↝",
+        "link": "http://www.core77.com/posts/25678/the-future-mundane-25678"
       },
       {
-        "title":"reading 2",
-        "link": "http://www.isaacblankensmith.com/"
+        "title":"First iPhone announcement↝",
+        "link": "https://www.youtube.com/watch?v=wGoM_wVrwng"
+      }
+    ]
+  },
+  {
+    "week": "Week 3",
+    "assigned":[
+      {
+        "title":"What Screens Want↝",
+        "link": "https://www.frankchimero.com/writing/what-screens-want/"
+      },
+      {
+        "title":"Mobile First↝",
+        "link": "http://ben-evans.com/benedictevans/2015/5/14/mobile-first"
+      }
+    ]
+  },
+  {
+    "week": "Week 4",
+    "assigned":[
+      {
+        "title":"All Technology Is Assistive↝",
+        "link": "https://medium.com/backchannel/all-technology-is-assistive-ac9f7183c8cd/"
+      },
+      {
+        "title":"Examined Life↝",
+        "link": "https://www.youtube.com/watch?v=k0HZaPkF6qE"
+      }
+    ]
+  },
+  {
+    "week": "Week 5",
+    "assigned":[
+      {
+        "title":"Ten bullets↝",
+        "link": "https://www.youtube.com/watch?v=49p1JVLHUos"
+      },
+      {
+        "title":"Lamps↝",
+        "link": "http://berglondon.com/blog/2012/12/19/lamps/"
       }
     ]
   }
