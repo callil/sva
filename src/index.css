@@ -57,7 +57,7 @@ a{
   text-decoration: none;
 }
 
-a:hover{
+p a:hover, ul a:hover{
   color: #ffaed0;
   transform-origin: 0% 50%;
   cursor: pointer;
@@ -162,19 +162,23 @@ li{
 .gathered:hover{
   transform-origin: 50% 50%;
   cursor: pointer;
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(7deg);
   transition: transform .3s ease, left 2s ease, bottom 2s ease;
+  position: relative;
+  z-index: 9999;
 }
 
 /*.name{
   position: absolute;
 }*/
 
-.teachers:hover{
+.teacher:hover{
   transform-origin: 50% 50%;
   cursor: pointer;
-  transform: scale(1.1) rotate(10deg);
+  transform: scale(1.2) rotate(7deg);
   transition: transform .3s ease;
+  position: relative;
+  z-index: 9999;
 }
 
 .image{

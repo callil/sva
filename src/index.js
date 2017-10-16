@@ -114,8 +114,7 @@ class App extends Component {
                   } 
                   : {
                     left: '0px',
-                    bottom: '0px',
-                    transform: 'rotate(0deg)'
+                    bottom: '0px'
                   }}
                 key={index}>
                 <a href={data.link} target="_blank"><img className='image' src={"data/" + data.image} alt="" /></a>
