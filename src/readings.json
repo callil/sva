@@ -1,0 +1,28 @@
+[
+  {
+    "week": "Week 1",
+    "assigned":[
+      {
+        "title":"reading 1",
+        "link": "http://barronwebster.com/"
+      },
+      {
+        "title":"reading 2",
+        "link": "http://www.isaacblankensmith.com/"
+      }
+    ]
+  },
+  {
+    "week": "Week 2",
+    "assigned":[
+      {
+        "title":"reading 1",
+        "link": "http://barronwebster.com/"
+      },
+      {
+        "title":"reading 2",
+        "link": "http://www.isaacblankensmith.com/"
+      }
+    ]
+  }
+]
