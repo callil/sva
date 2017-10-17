@@ -1,125 +1,191 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-
-  font-family: 'Rubik',sans-serif;
-  font-size: 24px;
-  background-color: blue;
-  color: yellow;
+  font-size: 26px;
+  font-weight: 200;
+  background-color: #000000;
+  color: white;
   width: 100vw;
   height: 100vh;
-  overflow: hidden;
+  overflow-x: hidden;
+  text-shadow: 2px 2px 6px black, -2px 2px 6px black, -2px -2px 6px black, 2px -2px 6px black;
+  font-family: sans-serif;
 }
 
-li, p, a{
-  font-family: 'Work Sans', sans-serif;
-  max-width: 900px;
+li, p, a, ul{
+  max-width: 650px;
   line-height: 1.5;
-  letter-spacing: 1.2;
-  /*font-size: 24px;*/
-  color: yellow;
+  padding-bottom: 15px;
+  position: relative;
+  z-index: 99;
+}
+
+
+h3{
+  font-weight: 200;
+  background: black;
+  border: 1px solid white;
+  margin: 60px 40px 20px 0;
+  padding: 10px;
+  display: inline-block;
+  position: relative;
+  z-index: 99;
+}
+
+.highlight{
+  color: #ffcf93;
 }
 
 a{
-  font-size: 48px;
-  color: yellow;
+  display: inline-block;
+  padding: 0;
+  transform-origin: 0% 50%;
+  color: #ffcf93;
+  transition: transform .3s ease, color .2s ease;
+  position: relative;
+  z-index: 999;
+  text-decoration: none;
+}
+
+p a:hover, ul a:hover{
+  color: #ffaed0;
+  transform-origin: 0% 50%;
+  cursor: pointer;
+  transform: scale(1.8);
+  transition: transform .3s ease, color .2s ease;
+}
+
+.person a{
+  padding: 0;
+  margin: 0;
+}
+
+
+.info{
+  /*position: absolute;*/
+  top: 0; left: 0;
+  padding: 0 40px 0 40px;
+  width: 100vw;
+  /*height: 100vh;*/
+
+  padding-bottom: 5rem;
+  background: transparent;
+  overflow: hidden;
+}
+
+
+.title{
+  font-size: 21vw;
+  line-height: 18vw;
+  font-weight: 200;
+  letter-spacing: -1vw;
+  /*color: white;*/
+  margin: 4vw 0 0 -1vw;
+  position: relative;
+  z-index: 999;
+  width: 100%;
+  overflow-wrap: break-word;
+  /*position: fixed;/*/
+   -webkit-text-fill-color: black; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: white;
+   /*text-shadow: 2px 2px 6px white, -2px 2px 6px white, -2px -2px 6px white, 2px -2px 6px white;*/
+}
+
+.letter:hover{
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  color: black;
+  cursor: crosshair;
+}
+
+li{
+  list-style: none;
+}
+
+.week p{
+  padding-bottom: 0;
+}
+
+.week ul{
+  /*padding-bottom: 30px;*/
+}
+.week ul li{
+  line-height: 1;
+  padding: 0;
 }
 
 
 .class{
-  padding : 1rem;
-  display: flex;
+    /*position: absolute;*/
+  /*top: 0; left: 0;*/
+  /*padding : 1rem;*/
+/*  display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  height: 100vh;
-  width: 100vw;
-  overflow: scroll;
-  -webkit-overflow-scrolling: touch;
+  flex-wrap: wrap;*/
+  /*height: 100vh;*/
+  /*width: 100vw;*/
+  /*overflow: scroll;*/
+  /*-webkit-overflow-scrolling: touch;*/
+  width: 100%;
+  /*border: 1px solid white;*/
+  /*display: inline-block;*/
 
 }
 
 .person{
-  width: 20vw;
+  transform-origin: 50% 50%;
+  width: 25%;
   min-width: 150px;
-  max-width: 300px;
+  /*max-width: 300px;*/
+  padding: 2vw 4vw 2vw 0;
+  display: inline-block;
   /*flex-shrink: 1;*/
-  transition: transform 1s ease;
+  transition: transform 2s ease, left 2s ease, bottom 2s ease;
+  position: relative;
+  z-index: 1;
 }
 
-.person:hover{
+.gathered{
+  transition: transform 1s ease, left .7s ease, bottom .7s ease;
+}
+
+.gathered:hover{
   transform-origin: 50% 50%;
   cursor: pointer;
-  transform: scale(1.5) rotate(20deg);
+  transform: scale(1.2) rotate(7deg);
+  transition: transform .3s ease, left 2s ease, bottom 2s ease;
+  position: relative;
+  z-index: 9999;
 }
 
-.name{
+/*.name{
   position: absolute;
+}*/
+
+.teacher:hover{
+  transform-origin: 50% 50%;
+  cursor: pointer;
+  transform: scale(1.2) rotate(7deg);
+  transition: transform .3s ease;
+  position: relative;
+  z-index: 9999;
 }
 
 .image{
   width: 100%;
+  border-radius: .5rem;
 }
 
-.info{
-  position: absolute;
-  top: 0; left: 0;
-  padding-left: 2vw;
-  width: 100vw;
-  height: 100vh;
-  overflow: scroll;
-  overflow-x: hidden;
-  -webkit-overflow-scrolling: touch;
-
-  margin-bottom: 5rem;
-}
-
-.behind{
-    z-index: -999;
-}
-
-.title{
-  font-size: 172px;
-  /*color: white;*/
-  z-index: 999;
-  width: 100%;
-  /*position: fixed;/*/
-}
-
-.title2{
-  font-size: 52px;
-}
-
-.x{
-  opacity: 1;
-  transition: opacity .5s ease-in;
-  cursor: pointer;
-  /*height: 50px;*/
-  color: yellow;
-  width: 100vw;
-  font-size: 120px;
-}
-
-@-webkit-keyframes colorchange {
-      0% {
-
-        color: red;
-      }
-      50% {
-
-        color: yellow;
-      }
-      100% {
-
-        color: red;
-      }
-    }
-
-.people a{
-  cursor: n-resize;
-  color: red;
-  animation:colorchange 5s infinite;
-}
 
 .teach{
   display: flex;
@@ -127,49 +193,56 @@ a{
   flex-wrap: wrap;
 }
 
-.teachers{
-  /*width: 20vw;*/
-  /*min-width: 100px;*/
-  max-width: 150px;
-  transition: transform 1s ease;
-}
-
-.teachers:hover{
-  transform-origin: 50% 50%;
-  cursor: pointer;
-  transform: scale(1.5) rotate(20deg);
-}
-
 img{
   /*filter: grayscale(100%) drop-shadow(0px 4px 5px grey);*/
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.35);
 }
 
+@-webkit-keyframes colorchange {
+      0% {
+
+        color: #ffcf93;
+      }
+      50% {
+
+        color: #ffaed0;
+      }
+      100% {
+
+        color: #ffcf93;
+      }
+    }
+
+.people a{
+  cursor: n-resize;
+  animation:colorchange .4s infinite;
+  position: relative;
+  z-index: 9999;
+}
+
+
 @media only screen and (max-width: 550px) {
   .title{
-    font-size: 72px;
-    padding: 1rem;
+    /*font-size: 72px;*/
+    /*padding: 1rem;*/
   }
 
-  .title2{
-    font-size: 25px;
-    padding: 1rem;
-  }
-
-  body{
-    font-size: 16px;
-    overflow-x: hidden;
-  }
-  p{
-    padding: 1rem;
+  p,ul{
+    /*padding: 1rem;*/
   }
   a{
-    font-size: 32px;
+    /*font-size: 32px;*/
   }
   .info{
-    padding: 0;
+    padding: 0 20px 0 20px;
   }
   .x{
     font-size: 48px;;
+  }
+  .person{
+      width: 50%;
+      /*min-width: 150px;*/
+      /*max-width: 300px;*/
+      padding: 2vw 4vw 2vw 0;
   }
 }

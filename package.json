@@ -7,12 +7,18 @@
     "react-accelerometer": "^1.0.1",
     "react-dom": "^16.0.0",
     "react-draggable": "^3.0.3",
-    "react-scripts": "1.0.14"
+    "react-scripts": "^1.0.14"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "homepage": "http://supermegainteractive.club/",
+  "devDependencies": {
+    "gh-pages": "^1.0.0"
   }
 }
