@@ -63,5 +63,31 @@
         "link": "http://berglondon.com/blog/2012/12/19/lamps/"
       }
     ]
+  },
+  {
+    "week": "Week 6",
+    "assigned":[
+      {
+        "title":"What Now?↝",
+        "link": "https://blog.prototypr.io/interaction-design-is-dead-what-now-db09d77cadae"
+      },
+      {
+        "title":"Mother of All Demos↝",
+        "link": "https://www.youtube.com/watch?v=yJDv-zdhzMY"
+      }
+    ]
+  },
+  {
+    "week": "Week 7",
+    "assigned":[
+      {
+        "title":"WTF is Relational Aesthetics?↝",
+        "link": "https://hyperallergic.com/18426/wtf-is-relational-aesthetics/"
+      },
+      {
+        "title":"Moniker Interview↝",
+        "link": "https://form.de/en/magazine/form269/focus"
+      }
+    ]
   }
 ]
