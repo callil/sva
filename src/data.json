@@ -1,6 +1,6 @@
 [
   {
-    "name": "Anthony",
+    "name": "Anthony Kim",
     "image": "3.jpg",
     "link" : "https://drive.google.com/open?id=1WdJx0PqRZxjXSxqSNlhqXo2_aApf64lZgw17a1jSeno&authuser=3"
   },
@@ -22,7 +22,7 @@
   {
     "name": "Jamie Yoo",
     "image": "7.jpg",
-    "link" : "https://drive.google.com/open?id=1YCM7KzNKjwgmdMgnH9wOTQU7DbPnTg1KcwgW33hx3_0&authuser=3"
+    "link" : "https://docs.google.com/presentation/d/1YCM7KzNKjwgmdMgnH9wOTQU7DbPnTg1KcwgW33hx3_0/edit#slide=id.p"
   },
   {
     "name": "Seung Hyo (Joanne)",
@@ -37,7 +37,7 @@
   {
     "name": "Gaby Ong",
     "image": "10.jpg",
-    "link" : "https://drive.google.com/open?id=1WgqjoFbqzQ6hvHr70aVDFnBY1k3hwYWNN8Ndj7q5IU4&authuser=3"
+    "link" : "https://docs.google.com/presentation/d/1WgqjoFbqzQ6hvHr70aVDFnBY1k3hwYWNN8Ndj7q5IU4/edit?ts=59edec06"
   },
   {
     "name": "I-Fah",
@@ -47,7 +47,7 @@
   {
     "name": "DongJai Cho (Jay)",
     "image": "12.jpg",
-    "link" : "https://drive.google.com/open?id=15O1S7Phx_LMZ8ZoMY8KseE3ZqGIfDvLqJywgxbL-pPY&authuser=3"
+    "link" : "https://docs.google.com/presentation/d/15O1S7Phx_LMZ8ZoMY8KseE3ZqGIfDvLqJywgxbL-pPY/edit?ts=59edda6c#slide=id.p"
   },
   {
     "name": "Yerin Kim",
@@ -72,7 +72,7 @@
   {
     "name": "Julie Zhu",
     "image": "17.jpg",
-    "link" : "https://drive.google.com/open?id=1L80ApT1zfJKEpN7uZrW7YtQMFOzi1dxyWWb1DjKS-MQ&authuser=3"
+    "link" : "https://docs.google.com/presentation/d/1X2SokORhfCLByb4k2twtpkIV8YsIVUzghVMqOjha4i4/edit"
   },
   {
     "name": "Qinya Yuan (Arcee)",
@@ -83,5 +83,10 @@
     "name": "Jessica Libby",
     "image": "19.jpg",
     "link" : "https://drive.google.com/open?id=1DWlkayZGaOOhZSR6UtEIdK6a0MwTBPTGGSafEDBqGtY&authuser=3"
+  },
+  {
+    "name": "Kee Wei Chin",
+    "image": "21.jpg",
+    "link" : "https://docs.google.com/presentation/d/16WY1CfaYEZit71Imm01BXaIfJMWfZKDw4_xEpEYOeEA/edit#slide=id.g270926e8a7_1_0"
   }
 ]
