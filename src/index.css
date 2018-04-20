@@ -272,15 +272,3 @@ img{
 .links {
   z-index: 999;
 }
-
-.students {
-  position: fixed;
-  top: 0px;
-  /* left: 0px; */
-}
-
-.links.people{
-  position: absolute;
-  right: 2rem;
-  top: 2rem;
-}
