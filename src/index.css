@@ -246,3 +246,41 @@ img{
       padding: 2vw 4vw 2vw 0;
   }
 }
+
+.flex-collapse {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.readings {
+  font-size: 1.5rem;
+}
+
+.week{
+  display: flex;
+  flex-direction: row;
+}
+
+.week p{
+  padding-right: 2rem;
+  opacity: .4;
+  white-space: nowrap;
+}
+
+.links {
+  z-index: 999;
+}
+
+.students {
+  position: fixed;
+  top: 0px;
+  /* left: 0px; */
+}
+
+.links.people{
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+}

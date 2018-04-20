@@ -89,5 +89,62 @@
         "link": "https://form.de/en/magazine/form269/focus"
       }
     ]
+  },
+  {
+    "week": "Week 8",
+    "assigned":[
+      {
+        "title":"–",
+        "link": "–"
+      }
+    ]
+  },
+  {
+    "week": "Week 9",
+    "assigned":[
+      {
+        "title":"Knowledge Navigator",
+        "link": "https://www.youtube.com/watch?v=9bjve67p33E&feature=youtu.be"
+      },
+      {
+        "title":"Design Fiction",
+        "link": "https://www.youtube.com/watch?v=FvgdKfWnYCg"
+      }
+    ]
+  },
+  {
+    "week": "Week 10",
+    "assigned":[
+      {
+        "title":"Airbnb Stories",
+        "link": "https://www.youtube.com/watch?v=sVc2hp9jlQ0&index=1&list=PL8HULOnO6yPrn5VsS0arbY5IOWnGtzs_L"
+      },
+      {
+        "title":"Toys",
+        "link": "http://cdixon.org/2010/01/03/the-next-big-thing-will-start-out-looking-like-a-toy/"
+      }
+    ]
+  },
+  {
+    "week": "Week 11",
+    "assigned":[
+      {
+        "title":"–",
+        "link": "–"
+      }
+    ]
+  },
+  {
+    "week": "Week 12",
+    "assigned":[
+      {
+        "title":"Turing Complete User",
+        "link": "http://contemporary-home-computing.org/turing-complete-user/"
+      },
+      {
+        "title":"NEXT",
+        "link": "http://www.appliedaesthetics.org/ART132-01/19/NEXT.pdf"
+      }
+    ]
   }
 ]
